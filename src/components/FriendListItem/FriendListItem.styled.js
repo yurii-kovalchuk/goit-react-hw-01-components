@@ -30,4 +30,5 @@ export const Name = styled.p`
   padding-left: 20px;
   font-size: 24px;
   font-weight: 700;
+  text-transform: uppercase;
 `;
