@@ -24,7 +24,7 @@ export const List = styled.ul`
 export const Item = styled.li`
   display: flex;
   flex-direction: column;
-  width: 100px;
+  width: ${({ arr }) => (100 / arr.length).toString()}%;
   box-sizing: border-box;
   padding: 20px 10px;
   text-align: center;
